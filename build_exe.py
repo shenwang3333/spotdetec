@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parent
 def main() -> None:
     cmd = [
         sys.executable, "-m", "PyInstaller",
-        "--name=TIRF_Liposome_Analysis",
+        "--name=Spots_Detector_and_Correlator",
         "--windowed",
         "--onefile",
         "--clean",
@@ -30,7 +30,7 @@ def main() -> None:
         str(ROOT / "run_gui.py"),
     ]
     subprocess.run(cmd, cwd=ROOT, check=True)
-    print("Build done. Executable: dist/TIRF_Liposome_Analysis.exe")
+    print("Build done. Executable: dist/Spots_Detector_and_Correlator_zh.exe")
 
 
 if __name__ == "__main__":
