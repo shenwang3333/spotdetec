@@ -27,7 +27,7 @@ class SpotParamsWidgetEN(QWidget):
             "- Too small: may over-split one spot / more noise detections.<br>"
             "- Too large: may merge nearby spots / smooth away weak spots.<br><br>"
             "<b>Start here</b><br>"
-            "- Commonly try 5 / 7 / 9 for ~200 nm liposomes (depends on pixel size and optics)."
+            "- Commonly try 5 / 7 / 9 for ~200 nm real spots in 0.16 um/px (depends on pixel size and optics)."
         )
         layout.addRow("Diameter (px):", self.diameter)
 
