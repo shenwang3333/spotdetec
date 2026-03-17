@@ -33,7 +33,7 @@ class SpotParamsWidget(QWidget):
             "<b>Diameter (px)</b><br>"
             "用于点检测的“斑点特征尺寸”（像素，建议奇数）。<br><br>"
             "<b>怎么理解</b><br>"
-            "- 近似等于单个脂质体在图像上的点扩散/亮斑直径（不是物理直径 200 nm 直接换算）。<br>"
+            "- 近似等于单个spot在图像上的点扩散/亮斑直径（不是物理直径 200 nm 直接换算）。<br>"
             "- 该值太小：一个点可能被识别成多个/更容易受噪声影响。<br>"
             "- 该值太大：相邻点可能被合并，弱点更容易被抹平。<br><br>"
             "<b>建议起始值</b><br>"
@@ -134,7 +134,7 @@ class PipelineParamsWidget(QWidget):
         self.sub_mask_radius.setDecimals(1)
         self.sub_mask_radius.setToolTip(
             "<b>Sub-mask radius (dual)</b><br>"
-            "双通道模式下：以每个“下层脂质体 spot”为圆心，画一个圆形子区域（像素半径）。<br>"
+            "双通道模式下：以每个“下层spot”为圆心，画一个圆形子区域（像素半径）。<br>"
             "在该圆内统计：上层荧光总和、上层 spot 个数，并计算强度比（上/下）。<br><br>"
             "<b>调参建议</b><br>"
             "- 通常设置为 Diameter/2 到 Diameter 之间（约 3–8 px 常见）。<br>"
