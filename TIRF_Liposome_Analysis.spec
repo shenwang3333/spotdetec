@@ -33,7 +33,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Spots_Detector_and_Correlator',
+    name='Spots_Detector_and_Correlator_zh',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
