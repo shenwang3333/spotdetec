@@ -93,7 +93,7 @@ class Worker(QThread):
 class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        self.setWindowTitle("TIRF 脂质体荧光分析")
+        self.setWindowTitle("Spots Detector and Correlator")
         self.setMinimumSize(800, 600)
         self.resize(900, 650)
         central = QWidget()
@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
         self.mode_single.setToolTip(
             "<b>单通道模式</b><br>"
             "只分析一个 channel：点检测后输出大小/强度分布、总个数、占视野面积比等。<br>"
-            "适用于只想统计某个颜色的脂质体。"
+            "适用于只想统计某个通道的spots。"
         )
         self.mode_dual.setToolTip(
             "<b>双通道模式</b><br>"
