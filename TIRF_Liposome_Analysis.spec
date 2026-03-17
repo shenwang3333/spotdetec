@@ -1,5 +1,5 @@
-# PyInstaller spec for TIRF Liposome Analysis GUI
-# Run from project root: pyinstaller TIRF_Liposome_Analysis.spec
+# PyInstaller spec for Spots Detector and Correlator GUI (zh)
+# Run from project root: pyinstaller Spots Detector and Correlator.spec
 
 block_cipher = None
 
@@ -33,7 +33,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='TIRF_Liposome_Analysis',
+    name='Spots_Detector_and_Correlator',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
