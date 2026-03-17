@@ -22,7 +22,7 @@ def main() -> None:
     QApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
     QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
     app = QApplication(sys.argv)
-    app.setApplicationName("TIRF 脂质体分析")
+    app.setApplicationName("Spots Detector and Correlator")
     win = MainWindow()
     win.show()
     sys.exit(app.exec_())
