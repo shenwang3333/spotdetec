@@ -1,2 +1,0 @@
-mode,file,file_lower,file_upper,image_shape,spot_engine,diameter,minmass,separation,preprocess_sigma,lower_count,upper_count,upper_intensity_in_mask_total,intensity_ratio_mean,intensity_ratio_median,intensity_ratio_std,upper_per_lower_count_mean,upper_per_lower_count_median,upper_per_lower_count_std
-dual,test_lower.tif + test_upper.tif,test_lower.tif,test_upper.tif,"(4,)",trackpy,7,500.0,,1.0,4,3,60417.99371955585,1.6128315580648223,1.5979937490820852,0.9692229758469808,0.5,0.5,0.5
