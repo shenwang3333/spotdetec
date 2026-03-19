@@ -42,7 +42,7 @@ python run_gui_en.py
 - **Single channel mode**: Select a single image or an input folder. The software quantifies, for each field of view (FOV): spot size distribution, fluorescence intensity distribution, total spot count, and area occupancy ratio. Results and distribution plots are automatically saved to the output folder.
 - **Dual channel mode**: i) Input options: Select one file or a pair of folders for the lower/upper channels (images are paired by filename); or For multi-channel single files, select one file and specify the channel indices. Analysis workflow: Using spots detected in the lower channel as a mask, the software quantifies the upper-channel fluorescence intensity and spot count colocalized with each lower-channel spot. It then calculates the intensity ratio (upper/lower) and generates distribution plots for both ratio and colocalized spot counts.
 
-### 命令行批量 Command line
+### 命令行批量 CLI
 
 ```bash
 python run_batch.py --mode single --input <文件或文件夹> --output <输出目录>
