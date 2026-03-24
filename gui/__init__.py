@@ -1,1 +1,1 @@
-"""GUI for TIRF liposome analysis."""
+"""GUI for Spots Detector and Correlator (zh)."""
